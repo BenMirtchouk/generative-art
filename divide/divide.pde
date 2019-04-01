@@ -55,4 +55,5 @@ void subdivide(PVector a, PVector b, PVector c, int depth){
 void draw(){
   clear();
   startdivide();
+  saveFrame("im_" + frameCount);
 }
